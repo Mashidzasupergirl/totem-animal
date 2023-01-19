@@ -10,27 +10,22 @@
 
     const STATES = {
         under30: {
-            yellow: './pics/giraffe.JPG',
-            grey: './pics/gorilla.JPG',
-            brown: './pics/monkey.JPG',
-            orange: './pics/kenguru.JPG',
+            yellow: './pics/giraffe.jpg',
+            grey: './pics/gorilla.jpg',
+            brown: './pics/monkey.jpg',
+            orange: './pics/kenguru.jpg',
         },
         above30: {
-            yellow: './pics/lion.JPG',
-            grey: './pics/koala.JPG',
-            brown: './pics/sloth.JPG',
-            orange: './pics/tiger.JPG',
+            yellow: './pics/lion.jpg',
+            grey: './pics/koala.jpg',
+            brown: './pics/sloth.jpg',
+            orange: './pics/tiger.jpg',
         }
     }
 
     // Create a function to reuse this code for every color button
     const setAllButtonsBorderToNone = () => {
         const allColorButtons = document.querySelectorAll('.color');
-        // Naive approach: access an array element one by one
-        // allColorButtons[0].style.border = 'none'
-        // allColorButtons[1].style.border = 'none'
-        // allColorButtons[2].style.border = 'none'
-        // allColorButtons[3].style.border = 'none'
         let index = 0;
         while (index < allColorButtons.length) {
             // Repeat the code for all elements in an array

@@ -10,16 +10,16 @@
 
     const STATES = {
         under30: {
-            yellow: './images/giraffe.JPG',
-            grey: './images/gorilla.JPG',
-            brown: './images/monkey.JPG',
-            orange: './images/kenguru.JPG',
+            yellow: './images/giraffe1.jpg',
+            grey: './images/gorilla1.jpg',
+            brown: './images/monkey1.jpg',
+            orange: './images/kenguru1.jpg',
         },
         above30: {
-            yellow: './images/lion.JPG',
-            grey: './images/koala.JPG',
-            brown: './images/sloth.JPG',
-            orange: './images/tiger.JPG',
+            yellow: './images/lion1.jpg',
+            grey: './images/koala1.jpg',
+            brown: './images/sloth1.jpg',
+            orange: './images/tiger1.jpg',
         }
     }
 
